@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsya Zain Nurrafif - Biografi & Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#0b0b0e',
+                        cardBg: '#131318',
+                        accentOrange: '#f97316',
+                        accentOrangeHover: '#ea580c',
+                        textMuted: '#9ca3af'
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0b0b0e;
+            color: #f3f4f6;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .glass-card {
+            background: rgba(19, 19, 24, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .dropdown-menu {
+            transition: all 0.2s ease-in-out;
+            opacity: 0;
+            transform: translateY(10px);
+            pointer-events: none;
+        }
+        .group:hover .dropdown-menu {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+    </style>
+</head>
+<body class="selection:bg-orange-500 selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#0b0b0e]/80 backdrop-blur-md border-b border-white/5 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-orange-500 inline-block"></span> Arsya Zain
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-textMuted">
+                <a href="#bio" class="hover:text-white transition-colors">Bio</a>
+                <a href="#latar-belakang" class="hover:text-white transition-colors">Latar Belakang</a>
+                <a href="#pendidikan" class="hover:text-white transition-colors">Pendidikan</a>
+                <a href="#keahlian" class="hover:text-white transition-colors">Keahlian</a>
+                <a href="#timeline" class="hover:text-white transition-colors">Timeline & Organisasi</a>
+            </nav>
+
+            <!-- Social Dropdown Menu -->
+            <div class="relative group">
+                <button class="bg-orange-600 hover:bg-orange-500 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all shadow-lg shadow-orange-600/20 flex items-center gap-2">
+                    <span>Sosial & Kontak</span> <i class="fa-solid fa-chevron-down text-xs"></i>
+                </button>
+                <div class="dropdown-menu absolute right-0 mt-2 w-56 glass-card rounded-2xl p-2 shadow-2xl border border-white/10 z-50">
+                    <a href="https://www.tiktok.com/@arsya_zannrrff?_r=1&_t=ZS-9AuEGpKOGqS" target="_blank" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/5 text-sm text-textMuted hover:text-white transition-colors">
+                        <i class="fa-brands fa-tiktok text-orange-500 w-5"></i> <span>TikTok</span>
+                    </a>
+                    <a href="https://www.instagram.com/arsya.rafif?psln=MWh1bjhlMnU0MTViOQ==" target="_blank" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/5 text-sm text-textMuted hover:text-white transition-colors">
+                        <i class="fa-brands fa-instagram text-orange-500 w-5"></i> <span>Instagram</span>
+                    </a>
+                    <a href="https://wa.me/qr/ADU7H25XOS33E1" target="_blank" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-white/5 text-sm text-textMuted hover:text-white transition-colors">
+                        <i class="fa-brands fa-whatsapp text-orange-500 w-5"></i> <span>WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen pt-32 pb-20 flex items-center overflow-hidden">
+        <!-- Background Glow Orbs -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+            <!-- Left Info -->
+            <div class="lg:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-bold uppercase tracking-wider">
+                    <i class="fa-solid fa-bolt"></i> Pelajar & Kreator Muda
+                </div>
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight">
+                    Arsya Zain <span class="text-orange-500">Nurrafif.</span>
+                </h1>
+                <p class="text-lg text-textMuted max-w-xl leading-relaxed">
+                    "Menjadi lebih baik dari sebelumnya." — Lahir di Pacitan, 19 Januari 2008. Siswa MAN Pacitan dengan passion mendalam di bidang seni musik, multimedia kreatif, jaringan komputer, dan wirausaha.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#bio" class="bg-orange-600 hover:bg-orange-500 text-white px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg shadow-orange-600/30 flex items-center gap-2">
+                        <span>Jelajahi Profil</span> <i class="fa-solid fa-arrow-down text-xs"></i>
+                    </a>
+                    <a href="#timeline" class="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-3.5 rounded-full font-semibold transition-all">
+                        Lihat Pengalaman
+                    </a>
+                </div>
+                <!-- Social Links -->
+                <div class="flex items-center space-x-4 pt-6 text-textMuted">
+                    <span class="text-xs uppercase tracking-widest text-white/40">Ikuti Saya:</span>
+                    <a href="https://www.tiktok.com/@arsya_zannrrff?_r=1&_t=ZS-9AuEGpKOGqS" target="_blank" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-orange-600 hover:text-white transition-all"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/arsya.rafif?psln=MWh1bjhlMnU0MTViOQ==" target="_blank" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-orange-600 hover:text-white transition-all"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/qr/ADU7H25XOS33E1" target="_blank" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-orange-600 hover:text-white transition-all"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Right Hero Photo Card -->
+            <div class="lg:col-span-5 relative">
+                <div class="relative rounded-3xl overflow-hidden border border-white/15 shadow-2xl group aspect-[4/5] bg-cardBg">
+                    <img src="IMG_4815.jpg" alt="Arsya Zain Nurrafif" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" onerror="this.onerror=null;this.src='https://placehold.co/600x750/131318/f97316?text=Arsya+Zain+Nurrafif';">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0e] via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-6 left-6 right-6 p-4 glass-card rounded-2xl flex items-center justify-between text-xs text-textMuted">
+                        <div>
+                            <span class="text-white font-bold block text-sm">Arsya Zain Nurrafif</span>
+                            <span class="text-orange-400">MAN Pacitan — Kelas XII</span>
+                        </div>
+                        <span class="text-green-400 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> Aktif</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bio Summary & Quick Details -->
+    <section id="bio" class="py-24 bg-cardBg/40 border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="text-orange-500 font-semibold text-sm uppercase tracking-wider">Tentang Saya</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+                        Mengenal Lebih Dekat Arsya Zain Nurrafif
+                    </h2>
+                    <p class="text-textMuted leading-relaxed">
+                        Arsya Zain Nurrafif adalah seorang pemuda asal Dusun Klisat, Desa Tambakrejo, Pacitan. Dikenal memiliki rasa ingin tahu yang tinggi, Arsya memadukan kedisiplinan kerja keras dari dunia wirausaha keluarga dengan kreativitas tinggi di bidang seni musik, fotografi, videografi, dan teknologi jaringan.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 pt-4">
+                        <div class="p-4 rounded-2xl bg-white/5 border border-white/5">
+                            <div class="text-orange-500 font-bold text-2xl">2008</div>
+                            <div class="text-xs text-textMuted mt-1">Tahun Kelahiran di Pacitan</div>
+                        </div>
+                        <div class="p-4 rounded-2xl bg-white/5 border border-white/5">
+                            <div class="text-orange-500 font-bold text-2xl">6+</div>
+                            <div class="text-xs text-textMuted mt-1">Keahlian & Bidang Dikuasai</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-6">
+                    <div class="glass-card p-8 rounded-3xl space-y-6">
+                        <h3 class="text-xl font-bold text-white border-b border-white/10 pb-4">Biodata Singkat</h3>
+                        <ul class="space-y-4 text-sm">
+                            <li class="flex justify-between border-b border-white/5 pb-3">
+                                <span class="text-textMuted">Nama Lengkap</span>
+                                <span class="font-medium text-white">Arsya Zain Nurrafif</span>
+                            </li>
+                            <li class="flex justify-between border-b border-white/5 pb-3">
+                                <span class="text-textMuted">Tempat, Tanggal Lahir</span>
+                                <span class="font-medium text-white">Pacitan, 19 Januari 2008</span>
+                            </li>
+                            <li class="flex justify-between border-b border-white/5 pb-3">
+                                <span class="text-textMuted">Status / Sekolah</span>
+                                <span class="font-medium text-white">Pelajar MAN Pacitan (Kelas XII)</span>
+                            </li>
+                            <li class="flex justify-between border-b border-white/5 pb-3">
+                                <span class="text-textMuted">NISN</span>
+                                <span class="font-medium text-white">0086831039</span>
+                            </li>
+                            <li class="flex justify-between border-b border-white/5 pb-3">
+                                <span class="text-textMuted">Alamat</span>
+                                <span class="font-medium text-white text-right max-w-[220px]">Dusun Klisat, Ds. Tambakrejo, Kec. Pacitan</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latar Belakang Keluarga -->
+    <section id="latar-belakang" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 order-2 lg:order-1 relative rounded-3xl overflow-hidden border border-white/15 aspect-[16/10] shadow-xl glass-card flex flex-col justify-center items-center text-center p-8">
+                    <div class="w-16 h-16 rounded-2xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-500 text-2xl mb-4">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <span class="text-xs uppercase tracking-widest text-orange-400 font-bold mb-2">Wirausaha Keluarga & Hobi</span>
+                    <h4 class="text-2xl font-bold text-white mb-2">Brand "PIA LESTARI"</h4>
+                    <p class="text-sm text-textMuted max-w-sm">Produksi dan penjualan kue bakpia berkualitas dari Pacitan yang dikembangkan oleh keluarga.</p>
+                </div>
+                <div class="lg:col-span-6 order-1 lg:order-2 space-y-6">
+                    <div class="text-orange-500 font-semibold text-sm uppercase tracking-wider">Akar & Perjuangan</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+                        Latar Belakang Keluarga & Etos Kerja
+                    </h2>
+                    <p class="text-textMuted leading-relaxed">
+                        Arsya merupakan anak bungsu dari tiga bersaudara, buah hati dari pasangan bapak Agus Wahyudin dan ibu Surip Lestari. Kedua orang tuanya bekerja sebagai wirausahawan yang memproduksi dan menjual kue bakpia dengan brand <strong>"PIA LESTARI"</strong>.
+                    </p>
+                    <p class="text-textMuted leading-relaxed">
+                        Semangat kerja keras orang tuanya telah ditanamkan kepada Arsya sejak kecil. Konsisten sejak duduk di kelas 4 Sekolah Dasar hingga kini berada di bangku kelas akhir tingkat SLTA, Arsya selalu menyempatkan diri membantu mulai dari meracik adonan, membuat kue, hingga membungkus roti.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Perjalanan Pendidikan -->
+    <section id="pendidikan" class="py-24 bg-cardBg/40 border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+                <div class="text-orange-500 font-semibold text-sm uppercase tracking-wider">Riwayat Akademik</div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Perjalanan Pendidikan</h2>
+                <p class="text-textMuted">Jejak langkah pendidikan formal Arsya di tanah kelahirannya Pacitan.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-card p-8 rounded-3xl relative group hover:border-orange-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-orange-500/10 flex items-center justify-center text-orange-500 font-bold text-xl mb-6">01</div>
+                    <h3 class="text-xl font-bold text-white mb-2">SDN 1 Tambakrejo</h3>
+                    <p class="text-textMuted text-sm">Pendidikan dasar tempat Arsya mulai menimba ilmu dan menanamkan dasar disiplin belajar.</p>
+                </div>
+                <div class="glass-card p-8 rounded-3xl relative group hover:border-orange-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-orange-500/10 flex items-center justify-center text-orange-500 font-bold text-xl mb-6">02</div>
+                    <h3 class="text-xl font-bold text-white mb-2">MTs Attarmasie</h3>
+                    <p class="text-textMuted text-sm">Pendidikan menengah pertama di mana minat pada teknik, elektronika, dan jaringan mulai tumbuh.</p>
+                </div>
+                <div class="glass-card p-8 rounded-3xl relative group hover:border-orange-500/50 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-orange-500/10 flex items-center justify-center text-orange-500 font-bold text-xl mb-6">03</div>
+                    <h3 class="text-xl font-bold text-white mb-2">MAN Pacitan</h3>
+                    <p class="text-textMuted text-sm">Saat ini sedang menempuh kelas XII (kelas 3 SLTA) sekaligus aktif di Tim Media Madrasah.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keahlian & Keterampilan -->
+    <section id="keahlian" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+                <div class="text-orange-500 font-semibold text-sm uppercase tracking-wider">Kompetensi</div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Bakat, Minat & Keahlian</h2>
+                <p class="text-textMuted">Sosok pemuda dengan rasa ingin tahu tinggi di bidang seni, teknologi, dan media kreatif.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="glass-card p-6 rounded-2xl flex items-start space-x-4">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 text-xl flex-shrink-0"><i class="fa-solid fa-music"></i></div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white">Seni Musik</h4>
+                        <p class="text-xs text-textMuted mt-1">Belajar otodidak terinspirasi sang ayah (tukang kayu pembuat alat musik) & aktif ekstrakurikuler musik.</p>
+                    </div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl flex items-start space-x-4">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 text-xl flex-shrink-0"><i class="fa-solid fa-network-wired"></i></div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white">Jaringan Komputer (TKJ)</h4>
+                        <p class="text-xs text-textMuted mt-1">Instalasi Wi-Fi, topologi jaringan, sound system, hingga panel surya sederhana sejak MTs kelas 2.</p>
+                    </div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl flex items-start space-x-4">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 text-xl flex-shrink-0"><i class="fa-solid fa-camera"></i></div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white">Fotografi & Videografi</h4>
+                        <p class="text-xs text-textMuted mt-1">Aktif di Tim Media Madrasah MAN Pacitan kelas 10 & 11, mahir pengambilan gambar dan editing.</p>
+                    </div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl flex items-start space-x-4">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 text-xl flex-shrink-0"><i class="fa-solid fa-car-side"></i></div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white">Otomotif</h4>
+                        <p class="text-xs text-textMuted mt-1">Memiliki minat dan pemahaman mendalam dalam dunia otomotif sebagai bagian dari keterampilan.</p>
+                    </div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl flex items-start space-x-4">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 text-xl flex-shrink-0"><i class="fa-solid fa-film"></i></div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white">Video & Foto Editing</h4>
+                        <p class="text-xs text-textMuted mt-1">Pengalaman mengolah visual media publikasi sekolah secara profesional dan kreatif.</p>
+                    </div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl flex items-start space-x-4">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-500 text-xl flex-shrink-0"><i class="fa-solid fa-medal"></i></div>
+                    <div>
+                        <h4 class="text-lg font-bold text-white">Kepemimpinan</h4>
+                        <p class="text-xs text-textMuted mt-1">Aktif berorganisasi dan memegang amanah penting seperti Ketua 1 Saka Bhayangkara.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline & Organisasi -->
+    <section id="timeline" class="py-24 bg-cardBg/40 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-16">
+                <div class="text-orange-500 font-semibold text-sm uppercase tracking-wider">Rekam Jejak</div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-2">Timeline & Organisasi</h2>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <div class="text-orange-500 font-bold text-lg">OSIS</div>
+                    <div class="text-xs text-textMuted mt-1">Keaktifan Sekolah</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <div class="text-orange-500 font-bold text-lg">PRAMUKA</div>
+                    <div class="text-xs text-textMuted mt-1">Kedisiplinan & Mental</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <div class="text-orange-500 font-bold text-lg">SAKA BHAYANGKARA</div>
+                    <div class="text-xs text-textMuted mt-1">Amanah: Ketua 1</div>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <div class="text-orange-500 font-bold text-lg">TIM MEDIA MAN</div>
+                    <div class="text-xs text-textMuted mt-1">Fotografi & Videografi</div>
+                </div>
+            </div>
+
+            <!-- Life & Personal Section -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="text-orange-500 font-semibold text-sm uppercase tracking-wider">Kehidupan Pribadi</div>
+                    <h3 class="text-2xl sm:text-3xl font-bold text-white">Hubungan & Sosial</h3>
+                    <p class="text-textMuted leading-relaxed">
+                        Dalam kehidupan pribadinya, Arsya memiliki seorang pasangan bernama <strong>Nabila</strong>, siswi SMKN 2 Pacitan. Keduanya pertama kali berkenalan melalui kegiatan Saka Bhayangkara, dan hubungan mereka tetap terjalin harmonis hingga saat ini.
+                    </p>
+                    <div class="p-6 rounded-2xl bg-orange-500/10 border border-orange-500/20 text-orange-300 text-sm italic">
+                        "Menjadi lebih baik dari sebelumnya — prinsip hidup yang menuntun setiap langkah pengembangan diri Arsya."
+                    </div>
+                </div>
+                <div class="lg:col-span-6 relative rounded-3xl overflow-hidden border border-white/10 aspect-[4/3] shadow-2xl glass-card flex flex-col justify-center items-center text-center p-8">
+                    <div class="w-16 h-16 rounded-2xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-500 text-2xl mb-4">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-1">Harmoni & Dedikasi</h4>
+                    <p class="text-xs text-textMuted">Perjalanan kebersamaan dan prestasi yang terus dibangun dengan penuh semangat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#070709] border-t border-white/5 py-12">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-orange-500 inline-block"></span> Arsya Zain Nurrafif
+            </div>
+            <p class="text-xs text-textMuted">© 2026 Arsya Zain Nurrafif. All rights reserved.</p>
+            <div class="flex items-center space-x-4 text-textMuted">
+                <a href="https://www.tiktok.com/@arsya_zannrrff?_r=1&_t=ZS-9AuEGpKOGqS" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/arsya.rafif?psln=MWh1bjhlMnU0MTViOQ==" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/qr/ADU7H25XOS33E1" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
